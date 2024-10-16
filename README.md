@@ -1,4 +1,5 @@
-# Word-Count
+## DATE:
+## EXP NO 9:Word-Count
 ## AIM:
 To write a python program for getting the word count from a text.
 ## EQUIPEMENT'S REQUIRED: 
@@ -35,7 +36,8 @@ with open("story.txt","r") as f1:
 print("The number of words are in the file is ",num)
 ```
 ### OUTPUT:
-![Screenshot 2024-05-16 193852](https://github.com/23000966/Word-Count/assets/153983364/3eddd892-bf88-417b-8afc-9e34ce768c1a)
+![Screenshot 2024-10-16 154320](https://github.com/user-attachments/assets/4eb79daa-13de-4c9f-9afa-b059aeebbb27)
+
 
 
 
