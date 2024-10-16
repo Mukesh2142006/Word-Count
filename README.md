@@ -26,6 +26,7 @@ Giving print statement for getting output.
 #Developed by : AMALJOSH MAADHAV J
 #Reg num : 212223230012
 
+
 num_words =0
 with open('text.txt','r') as file1:
  for i in file1:
