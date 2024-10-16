@@ -27,7 +27,7 @@ Giving print statement for getting output.
 #Reg num : 212223230012
 
 num_words =0
-with open('trty','r') as file1:
+with open('text.txt','r') as file1:
  for i in file1:
   word =i.split()
   num_words += len(word)
@@ -35,7 +35,9 @@ print("Number of words={}".format(num_words))
 
 ```
 ### OUTPUT:
+![image](https://github.com/user-attachments/assets/9d275196-ef3b-4d00-b027-919441de6c23)
 
+![image](https://github.com/user-attachments/assets/152bf73d-0d45-44a7-8134-276bac74497b)
 
 
 ## RESULT:
