@@ -1,52 +1,42 @@
-## DATE:
-## Ex No 9 - Word-Count
+# Word-Count
 ## AIM:
 To write a python program for getting the word count from a text.
 ## EQUIPEMENT'S REQUIRED: 
 PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
-### Step 1:
-Decleare number of words is 0.
-### Step 2: 
-Open it with txt file.
-### Step 3: 
-Give range for i.
-### Step 4:  
-Then next split the words.
-### Step 5: 
-Count the number of words.
-### Step 6: 
-Giving print statement for getting output.
+## Step 1:
+Create a new text file
+
+## Step 2:
+Add some sentence to the file
+
+## Step 3:
+Now in the main.py file using split function,split the words in the .txt file
+
+## Step 4:
+Count the splitted Words
+
+## Step 5:
+Add the counted number in the variable
+
+## Step 6:
+Run the program and display the results
+
 ## PROGRAM:
-
 ```
-
-#Program for getting the word count from a text
-#Developed by : MUKESH.B
-#Reg num : 212223230128
-
-
-num_words =0
-with open('text.txt','r') as file1:
- for i in file1:
-  word =i.split()
-  num_words += len(word)
-print("Number of words={}".format(num_words))
-
-
-
-
-
-
-
-
-
+Register no:212223230128
+Developed by: MUKESH.B
+num=0
+with open("story.txt","r") as f1:
+    for i in f1:
+        word=i.split()
+        num += len(word)
+print("The number of words are in the file is ",num)
 ```
 ### OUTPUT:
-![image](https://github.com/user-attachments/assets/9d275196-ef3b-4d00-b027-919441de6c23)
+![Screenshot 2024-05-16 193852](https://github.com/23000966/Word-Count/assets/153983364/3eddd892-bf88-417b-8afc-9e34ce768c1a)
 
-![image](https://github.com/user-attachments/assets/152bf73d-0d45-44a7-8134-276bac74497b)
 
 
 ## RESULT:
