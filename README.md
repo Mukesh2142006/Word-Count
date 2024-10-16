@@ -23,8 +23,8 @@ Giving print statement for getting output.
 ```
 
 #Program for getting the word count from a text
-#Developed by : AMALJOSH MAADHAV J
-#Reg num : 212223230012
+#Developed by : MUKESH.B
+#Reg num : 212223230128
 
 
 num_words =0
